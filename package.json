@@ -18,6 +18,10 @@
     "scripts": {
         "build": "tsc"
     },
+    "peerDependencies": {
+        "react": "^16.8",
+        "react-native": "^0.66"
+    },
     "dependencies": {
         "@types/node": "^12.6.8",
         "@types/react": "^16.8.23",
@@ -42,6 +46,7 @@
         "jest": "^24.1.0",
         "metro-react-native-babel-preset": "^0.54.1",
         "react-test-renderer": "16.8.6",
-        "typescript": "^3.5.3"
+        "typescript": "^3.5.3",
+        "react-native": "^0.66"
     }
 }
